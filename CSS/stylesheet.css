@@ -190,16 +190,18 @@ html{
   button{
     text-decoration: none;
     border: 0.5px solid red;
-    color: red;
+    border-radius: 5px;
+    color: white;
     font-size: 1.3em;
-    background: transparent;
+    background: red;
+    padding: 10px;
   }
   
-  button:hover{
+  /* button:hover{
     color: white;
     background-color: red;
   
-  }
+  } */
   
   /* gallary ******************************************************************************************/
   .gallary-block{
@@ -312,7 +314,7 @@ html{
   }
   
   /* footer ***********************************************************************************************/
-  .word-footer{
+.word-footer{
     font-size: 20px; 
   }
   
@@ -384,12 +386,21 @@ html{
   @media (min-width: 1200px) { 
     /* About pSection******************************************************************************************/
     .company-image{
-        height: 300px;
+        height: 600px;
     }
   
     .pro-img{
       height: 333px;
       width: 500px;
+    }
+    .company-name{
+        font-size: 25px;
+    }
+    li{
+        float:right;
+    }
+    .move{
+        margin-left: 193px;
     }
   
   }
