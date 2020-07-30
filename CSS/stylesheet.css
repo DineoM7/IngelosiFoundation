@@ -323,6 +323,7 @@ html{
     border: solid 1px black;
     font-size: 20px;
     padding: 10px;
+    color:#292929;
   }
   
   #bookface{
@@ -330,6 +331,7 @@ html{
     border: solid 1px black;
     font-size: 20px;
     padding: 10px 14px;
+    color:#292929;
   }
   
   
@@ -386,7 +388,7 @@ html{
   @media (min-width: 1200px) { 
     /* About pSection******************************************************************************************/
     .company-image{
-        height: 600px;
+        height: 420px;
     }
   
     .pro-img{
@@ -395,9 +397,6 @@ html{
     }
     .company-name{
         font-size: 25px;
-    }
-    li{
-        float:right;
     }
     .move{
         margin-left: 193px;
